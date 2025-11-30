@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd4qaigw125h4"
-path="res://.godot/imported/crow-all.png-8ef24bad681bacfa8d50ab8d3146e92d.ctex"
+path="res://.godot/imported/crow-all.png-cdb615d3f7101090248567d9d3aa796f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Legacy Collection/Assets/Characters/crow/Spritesheets/crow-all.png"
-dest_files=["res://.godot/imported/crow-all.png-8ef24bad681bacfa8d50ab8d3146e92d.ctex"]
+source_file="res://assets/Legacy Collection/Assets/Characters/crow/crow-all.png"
+dest_files=["res://.godot/imported/crow-all.png-cdb615d3f7101090248567d9d3aa796f.ctex"]
 
 [params]
 
