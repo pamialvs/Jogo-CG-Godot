@@ -136,10 +136,10 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5ew6m"]
-size = Vector2(27, 40)
+size = Vector2(29, 40)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5ew6m"]
-radius = 12.0
+radius = 15.0
 height = 44.0
 
 [node name="enemy" type="CharacterBody2D" groups=["enemies"]]
