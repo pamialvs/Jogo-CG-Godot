@@ -1,6 +1,6 @@
 [gd_scene load_steps=16 format=3 uid="uid://d1kq50erjfx5y"]
 
-[ext_resource type="Script" uid="uid://daig6rc2kotrk" path="res://scripts/tittle_screen.gd" id="1_i7rao"]
+[ext_resource type="Script" path="res://scripts/tittle_screen.gd" id="1_i7rao"]
 [ext_resource type="Texture2D" uid="uid://nnd0dh44n3q6" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Horror-Files/menu/fundo.png" id="2_i7rao"]
 [ext_resource type="Texture2D" uid="uid://dg7lftj2wqr5p" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Horror-Files/menu/logo.png" id="2_vhpic"]
 [ext_resource type="FontFile" uid="uid://dgxsvw077y3s1" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Horror-Files/menu/ChillingSabrina-8K0D.ttf" id="3_vhpic"]
@@ -57,6 +57,45 @@ Button/styles/pressed = SubResource("StyleBoxFlat_c2as0")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i7rao"]
 
+[sub_resource type="Animation" id="Animation_we8ok"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("bg:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MarginContainer/HBoxContainer/sabrina:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
 [sub_resource type="Animation" id="Animation_i7rao"]
 resource_name = "reveal"
 length = 1.3
@@ -95,45 +134,6 @@ tracks/2/keys = {
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
-}
-
-[sub_resource type="Animation" id="Animation_we8ok"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("bg:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("MarginContainer:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(0, 0)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("MarginContainer/HBoxContainer/sabrina:modulate")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_c2as0"]

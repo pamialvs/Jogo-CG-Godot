@@ -1,9 +1,9 @@
 [gd_scene load_steps=51 format=3 uid="uid://cfinkfdwcpccg"]
 
 [ext_resource type="Script" uid="uid://bbus74ldsl8hb" path="res://scripts/player.gd" id="1_xb541"]
-[ext_resource type="Texture2D" uid="uid://digcohyguxt0n" path="res://assets/Little witch/69x56/Sprite sheet/IdleAnimation.png" id="2_dn4aw"]
-[ext_resource type="Texture2D" uid="uid://bmyp07rvdcvuf" path="res://assets/Little witch/69x56/Sprite sheet/JumpAnimation.png" id="3_lx6ew"]
-[ext_resource type="Texture2D" uid="uid://y2b2ev67akv3" path="res://assets/Little witch/69x56/Sprite sheet/RunAnimation.png" id="4_g4vbd"]
+[ext_resource type="Texture2D" uid="uid://cp2q10tu8ywvg" path="res://assets/Little witch/69x56/Sprite sheet/IdleAnimation.png" id="2_dn4aw"]
+[ext_resource type="Texture2D" uid="uid://cuabcvayfsw7d" path="res://assets/Little witch/69x56/Sprite sheet/JumpAnimation.png" id="3_lx6ew"]
+[ext_resource type="Texture2D" uid="uid://blmx1a58xdm4o" path="res://assets/Little witch/69x56/Sprite sheet/RunAnimation.png" id="4_g4vbd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dtykb"]
 atlas = ExtResource("2_dn4aw")
