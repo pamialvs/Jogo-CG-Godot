@@ -1,5 +1,4 @@
 [gd_scene load_steps=16 format=4 uid="uid://bgyeobbeefwak"]
-[gd_scene load_steps=19 format=4 uid="uid://bgyeobbeefwak"]
 
 [ext_resource type="Texture2D" uid="uid://bktmvsmos0mb6" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Castle-Files/PNG/layers/gothic-castle-tileset.png" id="1_wu64i"]
 [ext_resource type="Texture2D" uid="uid://bpakw6wq8nuoj" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Castle-Files/PNG/layers/gothic-castle-background.png" id="2_naeyk"]
