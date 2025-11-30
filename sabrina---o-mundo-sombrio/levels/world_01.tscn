@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://bgyeobbeefwak"]
+[gd_scene load_steps=16 format=4 uid="uid://bgyeobbeefwak"]
 
 [ext_resource type="Texture2D" uid="uid://bktmvsmos0mb6" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Castle-Files/PNG/layers/gothic-castle-tileset.png" id="1_wu64i"]
 [ext_resource type="Texture2D" uid="uid://bpakw6wq8nuoj" path="res://assets/Legacy Collection/Assets/Environments/Gothic-Castle-Files/PNG/layers/gothic-castle-background.png" id="2_naeyk"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dhjdajylfq40x" path="res://prefabs/goal.tscn" id="6_j8rs1"]
 [ext_resource type="Script" uid="uid://bh7yac8aqlkft" path="res://scripts/transition.gd" id="6_or7x1"]
 [ext_resource type="Script" uid="uid://dcje583gdbau4" path="res://scripts/color_rect.gd" id="7_or7x1"]
+[ext_resource type="PackedScene" uid="uid://du1rilxqpmw22" path="res://prefabs/pause_menu.tscn" id="10_tii1u"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_naeyk"]
 
@@ -672,3 +673,5 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 script = ExtResource("7_or7x1")
+
+[node name="pause_menu" parent="." instance=ExtResource("10_tii1u")]
