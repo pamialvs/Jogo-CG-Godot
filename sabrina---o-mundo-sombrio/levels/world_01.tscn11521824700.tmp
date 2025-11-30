@@ -657,8 +657,8 @@ position = Vector2(1464, 296)
 move_horizontal = false
 
 [node name="goal" parent="." instance=ExtResource("6_j8rs1")]
-position = Vector2(3049, 87)
-next_level = "res://levels/world_02.tscn"
+position = Vector2(-46, 117)
+next_level = "\"res://levels/world_02.tscn\""
 
 [node name="transition" type="CanvasLayer" parent="."]
 script = ExtResource("6_or7x1")
