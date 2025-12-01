@@ -36,7 +36,7 @@ grow_vertical = 2
 layout_mode = 2
 theme = ExtResource("1_hf53u")
 shortcut = SubResource("Shortcut_ntkjb")
-text = "Retomar
+text = "Continuar
 "
 
 [node name="sair_btn" type="Button" parent="menu_holder"]
